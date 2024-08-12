@@ -1,0 +1,28 @@
+name: hivewithcrudapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.4.0
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/store.png"
+  min_sdk_android: 21
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
